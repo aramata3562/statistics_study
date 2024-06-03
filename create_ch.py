@@ -19,5 +19,5 @@ def create_notebooks(directory, count):
 
 # 使用例
 
-create_notebooks('/Users/taketoaramaki/study/statistics_study/基礎統計学1_統計学入門', 13)
+create_notebooks('/Users/taketoaramaki/study/statistics_study/統計学実践ワークブック', 32)
 
