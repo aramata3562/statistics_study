@@ -6,7 +6,7 @@ def create_notebooks(directory, count):
         os.makedirs(directory)
     
     for i in range(1, count + 1):
-        filename = f'ch{i:02d}.ipynb'
+        filename = f'ch{i:02d}_problem.ipynb'
         filepath = os.path.join(directory, filename)
         with open(filepath, 'w') as f:
             content = {
@@ -17,7 +17,6 @@ def create_notebooks(directory, count):
             }
             json.dump(content, f)
 
-# 使用例
-
+# 使用
 create_notebooks('/Users/taketoaramaki/study/statistics_study/統計学実践ワークブック', 32)
 
